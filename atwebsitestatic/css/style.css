@@ -22,13 +22,92 @@ body {
 .wrapper {
     
 }
+.banner-wrapper {
+    display: flex;
+}
 .banner-carousel-wrapper {
 
 }
 .banner-carousel-wrapper .item {
     width: 100% !important;
-    height: 200px;
-    background-color: green;
+    height: 580px !important;
+    background-color: #F3F3F3;
+}
+/* .banner-carousel-wrapper .owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+  } */
+  /* .banner-carousel-wrapper .owl-nav {
+    position: relative !important;
+    display:  flex !important;
+    justify-content: space-between;
+  } */
+  
+  /* .banner-carousel-wrapper .owl-carousel .owl-prev.disabled,
+  .banner-carousel-wrapper .owl-carousel .owl-next.disabled{
+  pointer-events: none;
+  opacity: 0.2;
+  }
+  
+  .banner-carousel-wrapper .owl-carousel .prev-slide{
+    background: url(nav-icon.png) no-repeat scroll 0 0;
+    left: -33px;
+  }
+  .banner-carousel-wrapper .owl-carousel .next-slide{
+    background: url(nav-icon.png) no-repeat scroll -24px 0px;
+    right: -33px;
+  }
+  .banner-carousel-wrapper .owl-carousel .prev-slide:hover{
+   background-position: 0px -53px;
+  }
+  .banner-carousel-wrapper .owl-carousel .next-slide:hover{
+  background-position: -24px -53px;
+  }  */ 
+.banner-carousel-wrapper .item .banner-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100% !important;
+} 
+.banner-carousel-wrapper .item .banner-content-wrapper .content-title {
+    font-weight: 800;
+    color: #0C0C0C;
+}
+.banner-carousel-wrapper .item .banner-img {
+    display: flex;
+    align-items: center;
+    height: 100% !important;
+}
+.banner-carousel-wrapper .owl-dots {
+    position: relative;
+    margin-top: -30px !important;
+}
+.get-started-button {
+    background-color: #0d6baa;
+    color: #fff;
+    text-decoration: none;
+    min-width: 100px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    white-space: nowrap;
+    transition: all 200ms ease-in-out;
+    box-shadow: 0 4px 8px 0 transparent;
+}
+.get-started-button:hover {
+    color: #fff !important;
+}
+.get-started-button:hover i{
+    
+}
+
+.full-height {
+    height: 100% !important;
 }
 .section-heading {
     color: #35404e;
