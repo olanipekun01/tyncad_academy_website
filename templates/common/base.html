@@ -38,11 +38,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/acacemy">Academy</a>
                     </li>
-
-
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="/xaccounts">XAccounts</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/xaccounts">SpeedApp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/xaccounts">SublimeSlate</a>
+                    </li>
+                  
                     <li class="nav-item">
                         <a class="nav-link" href="/support">Support</a>
                     </li>
@@ -77,7 +82,7 @@
                 </div>
                 <div class="item" >
                     <div class="row full-height p-5">
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height order-md-1 order-2">
                             <div class="banner-content-wrapper">
                                 <h2 class="content-title">Become a Data Scientist</h2>
                                 <p> Develop the skill to extract intelligent insight with widely-used analytics tools and technologies, and the ability to communicate insights </p>
@@ -86,7 +91,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height order-md-2 order-1">
                             <div class="banner-img">
                                 <img src="{% static 'images/data-science.png' %}"/>
                             </div>
@@ -96,7 +101,7 @@
                 </div>
                 <div class="item" >
                     <div class="row full-height p-5">
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height order-md-1 order-2">
                             <div class="banner-content-wrapper">
                                 <h2 class="content-title">Become an Angular Expert</h2>
                                 <p> Learn to build modern Single Page Applications (SPAs) with Angular, an enterprise standard frontend framework</p>
@@ -105,7 +110,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 full-height">
+                        <div class="col-md-6 full-height order-md-2 order-1">
                             <div class="banner-img">
                                 <img src="{% static 'images/frontend.png' %}"/>
                             </div>
@@ -122,202 +127,244 @@
     
     
     <div class="container landing-page-heading-section">
-      
-        <div class="row align-items-center">
+        <section class="page-section bg-white pb-5">
+            <h3 class="text-center section-heading">Join Our Nov. Cohort</h3>
+            <p class="lead mt-3 text-center mb-5">
+                Career development is a necessary but tough journey that can be unpleasant without the right guardians, join our Nov. cohort to have access to our network of experienced experts to guide and mentor you.
+            </p>
+        <ul class="row solutions-wrapper">
+            <li class=" col-md-4">
+                <div class="sol-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/python.svg' %}" class=""/>
+                    </div>
+                  
+                    <h4 class="solutions-title">Python for Data Science</h4>
+                    <p class="solutions-desc">Develop the skill to extract intelligent insight with widely-used  analytics tools and technologies, and the ability to communicate insights
+                    </p>
+                    <ul class="sol-features mb-3">
+                        <li><i class="fa fa-check-circle sol-icons"></i> 6 months duration</li>
+                        <li><i class="fa fa-check-circle sol-icons"></i> Live online tuition session</li>
+                        <li><i class="fa fa-check-circle sol-icons"></i> Hands-on project</li>
+                    </ul>
+                    <h4 class="solutions-title text-primary price-tag">GHS1,500 / $300 / NGN144,000</h4>
+                    <a class="get-started-button hvr-pulse mt-2" href="http://bit.ly/tyncad-acreg" target="_blank">JOIN NOW <i class="fa fa-chevron-circle-right hvr-icon"></i></a>
+             
+                </div>
+            </li>
+            <li class=" col-md-4">
+                <div class="sol-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/django.svg' %}" class=""/>
+                    </div>
+                    
+                  
+                    <h4 class="solutions-title">Django Programming</h4>
+                    <p class="solutions-desc">Become job ready by developing the skills necessary for building scalable, fast and flexible backends with Django REST Framework
+                    </p>
+                    <ul class="sol-features mb-3">
+                        <li><i class="fa fa-check-circle sol-icons"></i> 6 months duration</li>
+                        <li><i class="fa fa-check-circle sol-icons"></i> Live online tuition session</li>
+                        <li><i class="fa fa-check-circle sol-icons"></i> Hands-on project</li>
+                    </ul>
+                    <h4 class="solutions-title text-primary price-tag">GHS1,500 / $300 / NGN144,000</h4>
+                    <a class="get-started-button hvr-pulse mt-2" href="http://bit.ly/tyncad-acreg" target="_blank">JOIN NOW <i class="fa fa-chevron-circle-right hvr-icon"></i></a>
+                  
+                </div>
+            </li>
+            <li class=" col-md-4">
+                <div class="sol-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/angularjs.svg' %}" class=""/>
+                    </div>
+                    
+                  
+                    <h4 class="solutions-title">Angular Programming</h4>
+                    <p class="solutions-desc">Learn to build modern Single Page Applications (SPAs) with Angular, an enterprise standard frontend framework
+                    </p>
+                    <ul class="sol-features mb-3">
+                        <li><i class="fa fa-check-circle sol-icons"></i> 3 months duration</li>
+                        <li><i class="fa fa-check-circle sol-icons"></i> Live online tuition session</li>
+                        <li><i class="fa fa-check-circle sol-icons"></i> Hands-on project</li>
+                    </ul>
+                    <h4 class="solutions-title text-primary price-tag">GHS600 / $110 / NGN144,000</h4>
+                    <a class="get-started-button hvr-pulse mt-2" href="http://bit.ly/tyncad-acreg" target="_blank">JOIN NOW <i class="fa fa-chevron-circle-right hvr-icon"></i></a>
+                  
+                </div>
+            </li>
+           
+        </ul>
+        </section>
+       <section class="pb-5 ">
+        <h3 class="text-center section-heading">What we do</h3>
+        <p class="lead mt-3 text-center mb-5">
+            We run with the mission to empower individuals and businesses to succeed and empower many. This mission has informed the execution and delivery of our service to give of the best
+        </p>
+        <ul class="row services-wrapper">
+            <li class=" col-md-3">
+                <div class="service-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/python.svg' %}" class=""/>
+                    </div>
+                  
+                    <h4 class="solutions-title">Programming  Training</h4>
+                    <p class="solutions-desc">We  help you  jump start your next programming career
+                    </p>
+                    
+                </div>
+            </li>
+            <li class=" col-md-3">
+                <div class="service-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/python.svg' %}" class=""/>
+                    </div>
+                  
+                    <h4 class="solutions-title">Software Engineering</h4>
+                    <p class="solutions-desc">Build your next website, web app, API and mobiile app with us
+                    </p>
+                    
+                </div>
+            </li>
+            <li class=" col-md-3">
+                <div class="service-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/python.svg' %}" class=""/>
+                    </div>
+                  
+                    <h4 class="solutions-title">Data Analysis</h4>
+                    <p class="solutions-desc">Not only do we give you value for your data, but we help you grow with data
+                    </p>
+                    
+                </div>
+            </li>
+            <li class=" col-md-3">
+                <div class="service-item  hvr-float-shadow ">
+                    <div class="sol-img mb-3">
+                        <img src="{% static 'images/python.svg' %}" class=""/>
+                    </div>
+                  
+                    <h4 class="solutions-title">Design & Printing</h4>
+                    <p class="solutions-desc">We offer you the best branding services and quality printing
+                    </p>
+                    
+                </div>
+            </li>
+        </ul>
+       </section>
+       <section class="pb-5">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-12 px-5 pb-3 message-box d-none">
+                    <div class="alert alert-danger"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-us-form gray-light-bg rounded p-5">
+                        <h4 class="contact-us-title">Ready to get started?</h4>
+                        <form action="#" method="POST" id="contactForm" class="contact-us-form mt-3" novalidate="true">
+                            <input type="hidden" name="csrfToken" id="csrfToken" value="05bbc6d5113a46d926bd2bbd4b19333bdb8748f60195d508ab1c0aa0e6976abc">
+                            <div class="form-row">
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required="required">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 mt-3">
+                                    <button type="submit" class="btn btn-primary" id="btnContactUs" style="pointer-events: all; cursor: pointer;">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="contact-us-content">
+                        <h4 class="contact-us-title">Looking for a excellent Service?</h4>
+                        <p class="lead">Enjoy seamless solutions that empowers you beyond boundaries.</p>
 
+                        <!-- <a href="#" class="btn outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a> -->
 
+                        <hr class="my-5">
 
-            <div class="col-lg-6 wow fadeInRight" >
-                <div class="spacer-10"></div>
-                <h1 class="landing-page-title">Revolutionizing the <span class="highlight-color">teaching, learning and
-                        execution</span> of statistical analysis</h1>
-                <p class="lead mt-4">
-                    This platform provides statistical technique syntaxes in multiple software with concise,
-                    informative, insightful, and inspiring footnotes. With SPC-Repository, everyone can learn to do data
-                    analysis in R, SAS, STATA, MPlus, MATLAB, etc., with ease and a smile.
-                </p>
-                <div class="spacer-20"></div>
-                <a class="btn btn-primary" href="#repo">Try it now</a>
-                <div class="mb-sm-30"></div>
-            </div>
-            <div class="col-lg-5 offset-lg-1 wow fadeInLeft" >
-                <img src="{% static 'images/business_plan.svg' %}" class="img-fluid" alt="" />
+                        <!-- <h5>Our Headquarters</h5>
+                        <address>
+                            100 Yellow House, Mn <br>
+                            Factory, United State, 13420
+                        </address>
+                        <br> -->
+                        <span>Phone: +233247446039</span> <br>
+                        <span>Email: <a href="mailto:hello@tyncad.com" class="link-color">hello@tyncad.com</a></span>
+
+                    </div>
+                </div>
             </div>
         </div>
-        </di>
+       </section>
         <div class="container">
             <div class="main-content" >
                
                 {% csrf_token %}
                 {% block main_body %}
                 {% endblock main_body %}
-                <section id="how_it_works" class="content-section">
-                    <h3 class="text-center section-heading">How it works</h3>
-                    <p class="lead mt-3 text-center mb-5">
-                        With SPC-Repository, everyone can learn to do data analysis in R, SAS, STATA, MPlus, MATLAB,
-                        etc., with ease and a smile.
-                    </p>
-                    <div class="row">
-                        <!-- feature box begin -->
-                        <div class="col-lg-4 col-md-6 mb40 wow fadeInUp" >
-                            <div class="feature-box f-boxed style-3">
-                                <i class="bg-color i-circle fa fa-wordpress"></i>
-                                <div class="text">
-                                    <a>
-                                        <h4>Analysis Types</h4>
-                                    </a>
-                                    All conceivable statistical analyses are grouped under these major themes: reading
-                                    and managing data, univariate (one variable analysis), bivariate (two variable
-                                    analysis), multivariate (multiple variable analysis), other advanced analyses, and
-                                    graphs
-                                </div>
-                                <i class="wm fa fa-wordpress"></i>
-                            </div>
-                        </div>
-                        <!-- feature box close -->
-
-                        <!-- feature box begin -->
-                        <div class="col-lg-4 col-md-6 mb40 sq-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="feature-box f-boxed style-3">
-                                <i class="bg-color-2 i-circle fa fa-paper-plane-o"></i>
-                                <div class="text">
-                                    <a>
-                                        <h4>Analysis Techniques</h4>
-                                    </a>
-                                    Select from a wide range of varieties of statistical analysis techniques such as
-                                    frequency distribution of a variable, mean and many more that you want perform on
-                                    any given variable.
-                                </div>
-                                <i class="wm fa fa-paper-plane-o"></i>
-                            </div>
-                        </div>
-                        <!-- feature box close -->
-
-                        <!-- feature box begin -->
-                        <div class="col-lg-4 col-md-6 mb40 sq-item wow fadeInUp" data-wow-delay=".5s">
-                            <div class="feature-box f-boxed style-3">
-                                <i class="bg-color-3 i-circle fa fa-line-chart"></i>
-                                <div class="text">
-                                    <a>
-                                        <h4>Statistical Commands</h4>
-                                    </a>
-                                    SPC Repository provides you with the commands to perform different analysis in SAS,
-                                    STATA, R, MPlus, MATLAB, etc., alongside an insightful digest on the command and the
-                                    statistical technique.
-                                </div>
-                                <i class="wm i-circle fa fa-line-chart"></i>
-                            </div>
-                        </div>
-                        <!-- feature box close -->
+            
 
 
-                    </div>
-                </section>
-                <section id="repo" class="content-section">
-                    <h3 class="text-center section-heading">SPC Repository</h3>
-                    <p class="lead mt-3 text-center mb-5">
-                        With SPC-Repository, everyone can learn to do data analysis in R, SAS, STATA, MPlus, MATLAB,
-                        etc., with ease and a smile.
-                    </p>
-                    <div id="divLoading" class="loading-icon d-none">
-                        <div class="lds-ellipsis">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-
-                    <div id="divContainer">
-
-
-
-                    </div>
-                </section>
-
-
-                {% comment %} <section id="the_team" class="content-section">
-                    <h1>Hello</h1>
-                </section> {% endcomment %}
-                <section id="about" class="content-section">
-                    <h3 class="text-center section-heading">About SPC Repository</h3>
-                    <p class="lead mt-3 text-center mb-5">
-                        What makes us different?
-                    </p>
-                    <p class="section-description">
-                        We make the learning and teaching of statistical programming accessible to everyone. We combine
-                        easy to grasp teaching and learning technique to help you appreciate and love statistics.
-                    </p>
-                </section>
 
             </div>
         </div>
     </div>
-    <footer class="footer-light">
-        <div class="container" style="background-size: cover;">
-            <div class="row" style="background-size: cover;">
-                <div class="col-lg-4" style="background-size: cover;">
-                    <div class="widget" style="background-size: cover;">
-                        <a href="/"> <img class="logo" alt="" src="{% static 'images/logo.svg' %}"> SPC Repository</a>
-                        <div class="spacer-20" style="background-size: cover;"></div>
-                        <h5 class="mt-2">Contact</h5>
-                        <p>
-                            P.O.BOX 011<br>
-                            Legon, Accra<br>
-                            Atitoe street
-                        </p>
+    <footer class="footer">
+        <div class="container" >
+            <div class="row" >
+                <div class="col-lg-4" >
+                    <div class="widget" >
+                         <img class="logo" alt="" style="width: 60px;" src="{% static 'images/logo-white.svg' %}">
+                        <div class="spacer-20"></div>
+                        <!-- <h5 class="mt-2">Contact</h5> -->
+                        
                     </div>
                 </div>
 
-                <div class="col-lg-2" style="background-size: cover;">
-                    <div class="widget" style="background-size: cover;">
-                        <h5>Quick Links</h5>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-2" style="background-size: cover;">
-                    <div class="widget" style="background-size: cover;">
-                        <h5>Pages</h5>
+                <div class="col-lg-4" >
+                    <div class="widget" >
+                        <h5>Support</h5>
+                        <address class="mb-0">Tel: +233247446039</address>
+                        <address>Email: hello@tyncad.com</address>
 
                     </div>
                 </div>
 
-
-                <div class="col-lg-4" style="background-size: cover;">
-                    <div class="widget" style="background-size: cover;">
-                        <h5>Newsletter</h5>
-
-                        <p>Signup for our newsletter to get the latest news, updates and special offers in your inbox.
-                        </p>
-                        <form class="row" id="form_subscribe" method="post" name="form_subscribe">
-                            <div class="col text-center" style="background-size: cover;">
-                                <input class="form-control" id="name_1" name="name_1" placeholder="enter your email"
-                                    type="text"> <a href="#" id="btn-submit"><i class="arrow_right"></i></a>
-                                <div class="clearfix" style="background-size: cover;"></div>
+                <div class="col-lg-4" >
+                    <div class="widget" >
+                        <h5>Follow Us</h5>
+                        <div class="col-md-6 text-md-right text-sm-left text-white" >
+                            <div class="social-icons text-white" >
+                                <a class="pr-3" href="https://facebook.com/tyncad" target="_blank"><i class="fa fa-facebook text-white fa-lg"></i></a>
+                                <a href="https://twitter.com/tyncad" target="_blank"><i class="fa fa-twitter text-white fa-lg"></i></a>
+                                <a href="https://www.linkedin.com/company/tyncad" target="_blank"><i class="fa fa-linkedin text-white fa-lg"></i></a>
+                                <a href="https://instagram.com/_tyncad" target="_blank"><i class="fa fa-instagram fa-lg text-white"></i></a>
+                                <a href="https://www.youtube.com/channel/UChE1cBSCITwOYSWh0r6197g" target="_blank"><i class="fa fa-youtube fa-lg text-white"></i></a>
+                                
                             </div>
-                        </form>
-                        <div class="spacer-10" style="background-size: cover;"></div>
-                        <small>Your email is safe with us. We don't spam.</small>
+                        </div>
                     </div>
                 </div>
+
+
+               
             </div>
 
-            <div class="row" style="background-size: cover;">
-                <div class="col-md-6 sm-text-center mb-sm-30" style="background-size: cover;">
-                    <div class="mt10" style="background-size: cover;">© Copyright 2020 - SPC Repository</div>
-                </div>
-
-                <div class="col-md-6 text-md-right text-sm-left" style="background-size: cover;">
-                    <div class="social-icons" style="background-size: cover;">
-                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-rss fa-lg"></i></a>
-                    </div>
-                </div>
-            </div>
+            <div class="mt10 text-center">© Copyright 2021 - TYNCAD</div>
         </div>
     </footer>
 
