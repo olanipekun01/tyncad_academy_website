@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
-    'website', 'storages',
+    'website',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -130,19 +131,13 @@ AWS_ACCESS_KEY_ID = os.environ.get('AWS_S3_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_S3_SECRET_ACCESS_KEY')
 
 STATIC_URL = 'https://' + AWS_STORAGE_BUCKET_NAME + '.s3.amazonaws.com/'
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.1/howto/static-files/
-###### HEROKU CONFIGURATION STARTS HERE ###################
-# STATIC_URL = '/atwebsitestatic/'
-# STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "atwebsitestatic"),
 ]
 
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_ROOT = '/atwebsitemedia/'
-# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ###### HEROKU CONFIGURATION STARTS HERE ###################
 if 'DATABASE_URL' in os.environ:
     DATABASES['default'] = dj_database_url.config()
