@@ -5,6 +5,7 @@ from django.utils import timezone
 class Banner(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     name = models.CharField(max_length=500)
+    banner = models.FileField(upload_to='banners', null=True, blank=True, default='')
     is_active = models.BooleanField(default=True)
     description = models.TextField()
     date_created = models.DateTimeField(default=timezone.now)
